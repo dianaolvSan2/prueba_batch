@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+
+.profile {
+    border-radius: 50%;
+
+
+}
+
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#4a06f8 0%, #6f50eb 100%);
+    display:table;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+  position:fixed;
+  background: rgb(219, 152, 250);
+  width: 100%;
+  margin-top: 0px;
+  top:0px;
+  z-index: 10;
+  color:pink;
+
+}
+
+
+.enlaces{
+    color:black;
+    display: inline;
+    padding-left: 33px;
+    padding-right:25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.enlaces:hover{
+    font-size: 25px;
+    color: blue;
+}
+
+button{
+    width: 200px;
+    background-image: url("https://cdn1.epicgames.com/spt-assets/b68971a37e904e258f610a17fa930f2e/garten-of-banban-1kmk5.png");
+    background-size: contain;
+}
